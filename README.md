@@ -1,2 +1,2 @@
 # perl_tutorial
-Perl tutorial for begginers.
+Perl tutorial for beginners.

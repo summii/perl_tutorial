@@ -34,7 +34,7 @@ foreach $key (sort keys (%subscript)){ # sort the keys and foreach statement for
 
 print "\n=========using each=============\n";
 
-# Its more to use each() function when you working with asociated arrays because only one lookup is required to get the key and its value.
+# Its more efficient to use each() function when you working with asociated arrays because only one lookup is required to get the key and its value.
 
 while (($key, $value) = each(%subscript)){
 	print "key = $key, value = $value \n";

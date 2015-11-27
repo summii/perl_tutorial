@@ -47,3 +47,16 @@ print "Items in \@amounts = $#amounts \n"; # '#amounts' will print last element 
 $size = @amounts; print "size of = $size\n"; # assign array to scalar than it will print size of array
 
 print "Items in 0 \@amounts = $amounts[$[]\n"; # shows the use of a special Perl variable, $[, which is the base subscript (0) of an array.
+
+# output
+@amounts = 10 20 29 
+@parts = computer rat kbd 
+@count =1 2 3 
+@empty = 
+@spare =computer rat kbd 
+@amount[0] =  
+@amount[1] =  
+@amount[2] =  
+Items in @amounts = 2 
+size of = 3
+Items in 0 @amounts = 10

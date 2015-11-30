@@ -33,7 +33,7 @@ print "@empty \n";
 print '@spare =';
 print "@spare \n";
 
-#printing individual items from arrya
+#printing individual items from array
 
 print '@amount[0] = ';
 print "@amount[0] \n";
